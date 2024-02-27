@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>This is my Website</title>
+    </head><style>
+
+        
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            background: #080808;
+            color: #fff;
+        }
+
+
+        nav {
+            background-color: #333;
+            padding: 10px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin-right: 15px;
+        }
+
+        #home {
+            margin-bottom: 50px;
+            width: 100%;
+            height: 100vh;
+            font-size: 40px;
+        }
+
+        #gallery{
+            margin-bottom: 50px;
+            width: 100%;
+            height: 100vh;
+            font-size: 40px;
+        }
+        #menu{
+            margin-bottom: 50px;
+            width: 100%;
+            height: 100vh;
+            font-size: 40px;
+        }
+    </style>
+
+    <body>
+        <nav>
+            <a href="#home">HOME</a>
+            <a href="#gallery">GALLERY</a>
+            <a href="#menu">MENU</a>
+        </nav>
+        <section id="home">
+            <h1>HOME</h1>
+            <p>Hello, I am Joan</p>
+            <p>Welcome to my Website</p>
+            <a href="https://unsplash.com/photos/purple-and-blue-light-digital-wallpaper-8bghKxNU1j0"><img src="C:\Users\Joan\OneDrive\Desktop\PLP Project\HTML\images\technology.jpg" alt="Tech"></a>
+        </section>
+        <section id="gallery">
+            <h2>GALLERY</h2>
+            <p>Nature</p>
+            <style>
+                /* CSS for styling the grid */
+                .image-grid {
+                    display: grid;
+                    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+                    gap: 10px;
+                }
+        
+                .image-grid img {
+                    width: 100%;
+                    height: auto;
+                }
+            </style>
+              <p>
+                <div class="image-grid">
+                    <a href="https://unsplash.com/photos/sun-light-passing-through-green-leafed-tree-EwKXn5CapA4"><img src="C:\Users\Joan\OneDrive\Desktop\PLP Project\HTML\images\nature.jpg" alt="Tree"></a>
+                    <a href="https://unsplash.com/photos/shallow-focus-photography-of-pink-flowers-MF16lGb95WY"><img src="C:\Users\Joan\OneDrive\Desktop\PLP Project\HTML\images\nature2.jpg" alt="Flowers"></a>
+                    <a href="https://unsplash.com/photos/white-starfish-on-sand-underwater-during-daytime-UCIZh0-OYPw"><img src="C:\Users\Joan\OneDrive\Desktop\PLP Project\HTML\images\nature3.jpg" alt="Sea"></a>
+                </div>
+              </p>
+        </section>
+        <section id="menu">
+        <h2>MENU</h2>
+        <p>Here are some food items</p>
+        <ul>
+            <li><p>An apple</p><a href="https://unsplash.com/photos/red-apple-fruit-gDPaDDy6_WE"><img src="C:\Users\Joan\OneDrive\Desktop\PLP Project\HTML\images\apple.jpg" alt="An apple" width="50%"></a></li>
+            <li><p>A cake</p><a href="https://unsplash.com/photos/white-cake-with-chocolate-syrup-on-white-ceramic-plate-vdx5hPQhXFk"><img src="C:\Users\Joan\OneDrive\Desktop\PLP Project\HTML\images\cake.jpg" alt="A cake" width="50%"></a></li>
+            <li><p>Pizza</p><a href="https://unsplash.com/photos/pizza-with-berries-MQUqbmszGGM"><img src="C:\Users\Joan\OneDrive\Desktop\PLP Project\HTML\images\pizza.jpg" alt="Pizza" width="50%"></a></li>
+            </ul>
+        </section>
+    </body>
+</html>
